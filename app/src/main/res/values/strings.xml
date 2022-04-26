@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NTR-app-test</string>
+    <string name="try_again">TryAgain</string>
+    <string name="label">filter</string>
+    <string name="open_details">open details</string>
+    <string name="hint_population">People: </string>
+    <string name="hint_population_calculated">"Calculated \n people "</string>
+    <string name="hint_counties">"Counties:  "</string>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:layout_width="200dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        tools:text="Ohava" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="@string/hint_population"
+            tools:text="Population: " />
+
+        <TextView
+            android:id="@+id/people"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:gravity="end|center_vertical"
+            android:textColor="@color/black"
+            tools:text="Ohava Ohava Ohava Ohava Ohava" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:text="@string/hint_counties" />
+        <TextView
+            android:id="@+id/counties"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/black"
+            tools:text="Ohava" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/calculatedGroup"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="100dp"
+            android:textColor="@color/black"
+            android:text="@string/hint_population_calculated" />
+        <TextView
+            android:id="@+id/calculatedCounties"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="end|center_vertical"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/black"
+            tools:text="Ohava" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/equalInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="55643" />
+
+</LinearLayout>
