@@ -14,5 +14,3 @@
 - For List with data, I used a way to have one adapter which can work with any item type. I implemented it with default component but it is similar to library AdapterDelegates or other.
 Also i think that this patter it is the best patter for screens with multiple data, because it is easy to add new type of data to screens
 
-- I don't implement storing data, cause i think that we always need fresh information. Store info will be good on details screen, but by test need to ask details information with api call
-
