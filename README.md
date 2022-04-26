@@ -1,7 +1,5 @@
 # NTRApp
 
-# NewsTestApp
-
 ## Stack:
 - Single Activity
 - MVVM | MVI (with one state for each Screen)
