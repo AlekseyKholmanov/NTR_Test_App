@@ -55,7 +55,6 @@ class StateDetailsViewModel(
                         )
                         viewModelScope.launch(errorHandler) {
                             withContext(worker) {
-                                delay(5000)
                                 when (val result =
                                     fetchStateDetailsUseCase.getStateDetails(wish.state.detail)) {
                                     is NetworkResult.Error -> {
